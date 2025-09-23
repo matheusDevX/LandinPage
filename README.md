@@ -31,3 +31,9 @@ O site apresenta:
 ---
 
 ## 📂 Estrutura do Projeto
+FooD-PeeK/
+│
+├── img/ # Imagens do site
+├── style.css # CSS principal
+├── script.js # JavaScript para interações
+└── index.html # Página principal
