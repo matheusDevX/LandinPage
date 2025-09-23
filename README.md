@@ -33,8 +33,8 @@ O site apresenta:
 ## 📂 Estrutura do Projeto
 
 FooDPeeK/
-├── img/ # Imagens do site
-├── style.css # CSS principal
-├── script/ # Pasta com JS
-│ └── script.js # JavaScript para interações
-└── index.html # Página principal
+├── img/           # Imagens do site
+├── style.css      # CSS principal
+├── script/        # Pasta com JS
+│   └── script.js  # JavaScript para interações
+└── index.html     # Página principal
