@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navigation">
+            <a href="#" class="logo">F<span>oo</span>D P<span>ee</span>K</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#home">Home</a></li>
+                <li class="nav-item"><a href="#about">About</a></li>
+                <li class="nav-item"><a href="#menu">Menu</a></li>
+                <li class="nav-item"><a href="#contact">Contact</a></li>
+                <div class="search-box">
+                    <input type="text" placeholder="Search..." class="search-input">
+                    <button class="search-btn"><i class='bx bx-search'></i></button>
+                </div>
+            </ul>
+            <!-- Botão mobile -->
+            <div class="menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção Home -->
+        <section class="home" id="home">
+            <div class="home-text">
+                <h4 class="text-h4">Welcome FooD PeeK</h4>
+                <h1 class="text-h1">Different spice for different tastes</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod error veniam in voluptatem magni
+                    quisquam</p>
+                <a href="#" class="home-btn">Order yours</a>
+            </div>
+            <div class="home-img">
+                <img src="img/home.png" alt="hamburguer">
+            </div>
+        </section>
+
+        <!-- Seção About -->
+        <section class="about" id="about">
+            <div class="about-container">
+                <div class="about-img">
+                    <img src="img/about.jpg" alt="sobre nós">
+                </div>
+
+                <div class="about-text">
+                    <h4 class="section-subtitle">About Us</h4>
+                    <h2 class="section-title">We cook with passion and love</h2>
+                    <p>
+                        At <strong>FooD PeeK</strong>, our mission is to serve more than just meals.
+                        We deliver unforgettable experiences through authentic flavors, fresh ingredients
+                        and a touch of creativity in every dish.
+                    </p>
+                    <div class="about-cards">
+                        <div class="card">
+                            <i class='bx bx-bullseye'></i>
+                            <h3>Mission</h3>
+                            <p>Bring people together with food that delights every taste.</p>
+                        </div>
+                        <div class="card">
+                            <i class='bx bx-show'></i>
+                            <h3>Vision</h3>
+                            <p>Be recognized as the place where flavor and happiness meet.</p>
+                        </div>
+                        <div class="card">
+                            <i class='bx bx-heart'></i>
+                            <h3>Values</h3>
+                            <p>Quality, passion, respect and innovation in every recipe.</p>
+                        </div>
+                    </div>
+                    <a href="#" class="home-btn">Learn More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Seção Menu -->
+        <section class="menu-section" id="menu">
+            <h4 class="section-subtitle">Our Menu</h4>
+            <h2 class="section-title">Delicious Dishes</h2>
+
+            <div class="menu-container">
+                <div class="menu-card">
+                    <img src="img/burger.jpg" alt="Burger">
+                    <h3>Classic Burger</h3>
+                    <p>Beef patty, cheese, lettuce, tomato, and special sauce.</p>
+                    <span class="price">$12</span>
+                </div>
+                <div class="menu-card">
+                    <img src="img/pizza.jpg" alt="Pizza">
+                    <h3>Margherita Pizza</h3>
+                    <p>Fresh mozzarella, basil, tomato sauce, and olive oil.</p>
+                    <span class="price">$15</span>
+                </div>
+                <div class="menu-card">
+                    <img src="img/salad.jpg" alt="Salad">
+                    <h3>Caesar Salad</h3>
+                    <p>Crisp romaine lettuce, parmesan, croutons, and Caesar dressing.</p>
+                    <span class="price">$10</span>
+                </div>
+                <div class="menu-card">
+                    <img src="img/dessert.jpg" alt="Dessert">
+                    <h3>Chocolate Cake</h3>
+                    <p>Rich chocolate cake topped with fresh berries.</p>
+                    <span class="price">$8</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact" id="contact">
+            <h4 class="section-subtitle">Get in Touch</h4>
+            <h2 class="section-title">Contact Us</h2>
+
+            <div class="contact-container">
+                <div class="contact-card">
+                    <i class='bx bx-map'></i>
+                    <h3>Address</h3>
+                    <p>123 Food Street, Flavor Town, USA</p>
+                </div>
+                <div class="contact-card">
+                    <i class='bx bx-phone'></i>
+                    <h3>Phone</h3>
+                    <p>+1 234 567 890</p>
+                </div>
+                <div class="contact-card">
+                    <i class='bx bx-envelope'></i>
+                    <h3>Email</h3>
+                    <p>contact@foodpeek.com</p>
+                </div>
+            </div>
+
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required>
+                <input type="email" placeholder="Your Email" required>
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="home-btn">Send Message</button>
+            </form>
+        </section>
+
+    </main>
+
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
