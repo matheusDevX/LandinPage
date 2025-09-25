@@ -24,8 +24,6 @@ O site apresenta:
 ## 🛠 Tecnologias Utilizadas
 - **HTML5** – Estrutura do site  
 - **CSS3** – Layout, cores e responsividade  
-- **JavaScript (ES6)** – Interatividade e animações  
-- **Boxicons** – Ícones modernos  
 
 ---
 
